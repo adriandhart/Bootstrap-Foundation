@@ -1,0 +1,923 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"session_",
+				"session_destroy"
+			],
+			[
+				"qu",
+				"question"
+			],
+			[
+				"pro",
+				"probAnswer"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"cap",
+				"capName"
+			],
+			[
+				"prob",
+				"probAnswer"
+			],
+			[
+				"Q",
+				"Question"
+			],
+			[
+				"you",
+				"your-name"
+			],
+			[
+				"array_mul",
+				"array_multi_rand"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"css",
+				"cssFile"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"page",
+				"page_title"
+			],
+			[
+				"site_",
+				"site_url"
+			],
+			[
+				"curren",
+				"current_url"
+			],
+			[
+				"men",
+				"menuLabel"
+			],
+			[
+				"menu",
+				"menuLabel"
+			],
+			[
+				"typogr",
+				"typography"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"hom",
+				"home-column-overlay"
+			],
+			[
+				"home",
+				"home-column"
+			],
+			[
+				"home-column",
+				"home-column-overlay"
+			],
+			[
+				"featu",
+				"features"
+			],
+			[
+				"typo",
+				"typography"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"marn",
+				"margin-top"
+			],
+			[
+				"gri",
+				"grid-switcher"
+			],
+			[
+				"sty",
+				"style-switcher"
+			],
+			[
+				"b",
+				"blockquote	Tag"
+			],
+			[
+				"su",
+				"sub	Tag"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"ic",
+				"icon-remove"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"dis",
+				"display  (variable)"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bann",
+				"bannerImageFile  (variable)"
+			],
+			[
+				"banner",
+				"bannerImageFile"
+			],
+			[
+				"curre",
+				"currentPage"
+			],
+			[
+				"ban",
+				"bannerImageFile"
+			],
+			[
+				"base",
+				"basename"
+			],
+			[
+				"bas",
+				"basename"
+			],
+			[
+				"curr",
+				"currentPage"
+			],
+			[
+				"content",
+				"contentFile"
+			],
+			[
+				"conte",
+				"contentFile"
+			],
+			[
+				"conten",
+				"contentFile"
+			],
+			[
+				"el",
+				"elseif	elseif …"
+			],
+			[
+				"fil",
+				"fileName"
+			],
+			[
+				"ech",
+				"echo	echo \"…\""
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"met",
+				"menuItems"
+			],
+			[
+				"title",
+				"title	<title>"
+			],
+			[
+				"me",
+				"menu_items"
+			],
+			[
+				"meta",
+				"meta_title"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"forma",
+				"formatPostDate"
+			],
+			[
+				"im",
+				"imageUrl"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"col",
+				"columnSize"
+			],
+			[
+				"gallery",
+				"galleryThumb"
+			],
+			[
+				"image",
+				"imageLink"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"post",
+				"post_parent"
+			],
+			[
+				"photo",
+				"photoQuery"
+			],
+			[
+				"ser",
+				"serviceSlug"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"wpcf7",
+				"wpcf7-form"
+			],
+			[
+				"posi",
+				"position_last"
+			],
+			[
+				"po",
+				"position_last"
+			],
+			[
+				"position",
+				"position_last"
+			],
+			[
+				"WIDGET",
+				"widget_mailchimpsf_widget"
+			],
+			[
+				"widg",
+				"widget_mailchimpsf_widget"
+			],
+			[
+				"bor",
+				"border-image-source"
+			],
+			[
+				"reg",
+				"register-online"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"side",
+				"sidebar-why"
+			],
+			[
+				"entr",
+				"entry-title"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"entry",
+				"entry-content"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"c",
+				"content"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"con",
+				"content-box"
+			],
+			[
+				"1px",
+				"10px"
+			],
+			[
+				"header",
+				"header-nav"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"margin-t",
+				"margin-top"
+			],
+			[
+				"tit",
+				"titleTag"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"displa",
+				"display	display: inline"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"bene",
+				"benefits-bar"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"dar",
+				"darkGrey"
+			],
+			[
+				"paddi",
+				"padding	padding: all"
+			],
+			[
+				"dark",
+				"darkOrange"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adrian/Sites/Local Files/Localhost/labs/css_frameworks.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/css_frameworks.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/index.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/layout.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/labs.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/css/labs.css",
+		"/Users/adrian/Sites/Local Files/localhost/labs/usable_captcha.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/config.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/baseline_rhythm.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/php-maths-captcha.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/reset.less",
+		"/Users/adrian/Sites/Local Files/Localhost/captcha/captcha.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/style.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/head.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/less/labs.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/baseline_rhythm.less",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/less/css_animation.less",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/less/baseline_rhythm.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/php_dates.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/smallscreen.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/sftp-config.json",
+		"/Users/adrian/Sites/Local Files/localhost/labs/pages/two.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/js/script.js",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/grid.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/header.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/css_animation.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/sample_page.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/css-animation.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/the-button.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/sample_page.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/sidebar-about.php",
+		"/Users/adrian/Desktop/mac.html",
+		"/Users/adrian/Sites/Local Files/localhost/labs/footer.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/sidebar-about.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/sidebar.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/pages/home.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/pages/baseline_rhythm.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/typography-test.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/pages/typography-test.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/pages/typography-test.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/pages/sample_page.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/pages/dates.php",
+		"/Users/adrian/Sites/Local Files/localhost/labs/nav.php",
+		"/Users/adrian/Sites/Local Files/Localhost/labs/less/ie.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/css/ie.css",
+		"/Users/adrian/Sites/Local Files/localhost/labs/css/style.css",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/font-awesome-ie7.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/less/font-awesome.less",
+		"/Users/adrian/Sites/Local Files/localhost/labs/pages/one.php",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/pages/home.php",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/less/reset.less",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/pages/dates.php",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/config.php",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/index.php",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/css/style.css",
+		"/Users/adrian/Sites/Local Files/localhost/sandbox/prototyping.sublime-project",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/skin/frontend/default/optimiseweb/css/optimiseweb.css",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/catalog/category/view.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/catalog/product/list/list.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/catalog/product/list.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/skin/frontend/default/optimiseweb/js/script.js",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/base/default/layout/page.xml",
+		"/Users/adrian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/page/html/header.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/sftp-config.json",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/catalog/product/view.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/optimiseweb/forms/enquiry.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/app/design/frontend/default/optimiseweb/template/page/html/footer.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF/mef-dev.sublime-project",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF - DEV/app/design/frontend/default/optimiseweb/template/aw_blog/latest-posts.phtml",
+		"/Users/adrian/Desktop/test.php",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF - DEV/app/design/frontend/default/optimiseweb/template/page/html/footer.phtml",
+		"/Users/adrian/Sites/Optimise/Local Files/MEF - DEV/skin/frontend/default/optimiseweb/favicon.ico",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/page-services-images.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/style.css",
+		"/Volumes/share/Optimise Web/Projects/Doggie Daycare/Docs/static-google-map.html",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/footer.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/page-gallery.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/page-services.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/includes/functions/ow_functions.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/js/script.js",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/js/admin.js",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare - DEV/searchpage.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/.htaccess",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/header.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/style.css",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/single.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/taxonomy/ow_post_taxonomy.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/index.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/front-page.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/functions.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/css/grid.css",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/post-types/dogs.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/single-review.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/page-services.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/js/script.js",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/page-services-images.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/sftp-config.json",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/metaboxes/page_price.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/functions/ow_functions.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/options/ow_options.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/metaboxes/page_bg.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/metaboxes/dog_meta.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/classes/ow_metabox.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/footer.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/shortcodes/shortcodes.php",
+		"/Volumes/share/Optimise Web/Projects/Doggie Daycare/Docs/Superceded Copy/Our Team.html",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/archive-review.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/reviews.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/page-home.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/index-search.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/metaboxes/review_meta.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/includes/sidebars/register_sidebars.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/sidebar-left.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/page.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/page-prices.html",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/page-contact.php",
+		"/Users/adrian/Documents/Local Files/Doggie Daycare/dogs.php",
+		"/Users/adrian/Sites/Optimise/Projects/Puji/Emails/Eco Tableware/From Client/newsletter.html",
+		"/Users/adrian/Sites/Optimise/Projects/Puji/Emails/Eco Tableware/HTML/pujimail-27092012.html",
+		"/Users/adrian/Sites/Optimise/Projects/Puji/Emails/27092012/HTML/newsletter.html",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/sidebar.php",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/less/layout.less",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/pages/shopping.php",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/less/reset.less",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/config.php",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/less/style.less",
+		"/Users/adrian/Sites/Local Files/localhost/sbl/breadcrumb.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"...",
+			"home",
+			"</em>",
+			"<em>",
+			"should",
+			"trying",
+			"name",
+			"base",
+			";\n",
+			"\"\",\n",
+			"<h3 class=\"list-title\">",
+			"<h3>",
+			"height",
+			"view-port",
+			"'",
+			"viewport",
+			"&.one {\n            -webkit-transition: opacity 0.2s linear 1s;\n            -o-transition: opacity 0.2s linear 1s;\n            -moz-transition: opacity 0.2s linear 1s;\n            transition: opacity 0.2s linear 1s;\n        }\n        &.two {\n            -webkit-transition: opacity 0.2s linear 1.5s;\n            -o-transition: opacity 0.2s linear 1.5s;\n            -moz-transition: opacity 0.2s linear 1.5s;\n            transition: opacity 0.2s linear 1.5s;\n        }",
+			"+",
+			">",
+			"all",
+			"0.5s",
+			"1s",
+			"mid",
+			"height",
+			"margin-left: -100px;\n        position: absolute;",
+			">\n",
+			"update",
+			"footer",
+			"baseLin",
+			"code",
+			"bottom",
+			"hr",
+			"success",
+			"viewport",
+			"2px 2px 2px 2px",
+			"3deg",
+			"div",
+			"7deg",
+			"rotate",
+			"offset",
+			"third",
+			"body.js",
+			"216px",
+			"second",
+			"footer",
+			"while",
+			"pull-left",
+			"pull-right",
+			"code",
+			"page-title",
+			"page-image",
+			"grid",
+			"page-title",
+			"footer-links",
+			"attached",
+			"debug",
+			"register-cta-fullsize",
+			"textwidget",
+			"text-widget",
+			"menu-left",
+			"service",
+			"button",
+			"services",
+			"checkbox",
+			"form",
+			"price",
+			"read",
+			"test",
+			"web",
+			"hr",
+			"h1",
+			"register-cta-fullsize",
+			"join",
+			"rotate",
+			"forms",
+			"form",
+			"bullet",
+			"button",
+			"auto",
+			"#menu-footer-menu",
+			"#footer",
+			"img",
+			"intro-bg.png",
+			"header-right",
+			"650",
+			"@midGrey",
+			"@lightGrey",
+			"right",
+			"body",
+			".a",
+			"<li class=\"left\">",
+			"small",
+			"row",
+			"menu",
+			"row",
+			"topSearch",
+			"top",
+			"bar",
+			"timeout",
+			"time out",
+			"timeout",
+			"thumbnails",
+			"80",
+			"img.alignright",
+			"url('League"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<div></div>",
+			"",
+			"</strong>",
+			"<strong>",
+			"<h3 class=\"top bottom\">",
+			"<h3 class=\"list-title\">",
+			"viewport",
+			"\"",
+			"~",
+			"+",
+			"top",
+			"0.2s",
+			"0.5s",
+			"dark",
+			"all",
+			"2px 3px 4px 1px",
+			"@degrees",
+			"__value__",
+			"__action__",
+			"indent",
+			"one-third",
+			"html.js",
+			"left",
+			"right",
+			"686",
+			"@purple",
+			"@lightPurple",
+			"<li>",
+			"url('../fonts/League"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/adrian/Sites/Local Files/Localhost/captcha/captcha.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true
+}

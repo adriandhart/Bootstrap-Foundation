@@ -31,12 +31,6 @@
   .clearfix();
 }
 
-// Set width to auto for default container
-// We then reset it for fixed navbars in the #gridSystem mixin
-.navbar .container {
-  width: auto;
-}
-
 // Override the default collapsed state
 .nav-collapse.collapse {
   height: auto;
@@ -189,14 +183,6 @@
   padding-left:  0;
   padding-right: 0;
   .border-radius(0);
-}
-
-// Reset container width
-// Required here as we reset the width earlier on and the grid mixins don't override early enough
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container {
-  #grid > .core > .span(@gridColumns);
 }
 
 // Fixed to top

@@ -449,13 +449,7 @@
     padding: 0;
     margin: 0 -10px;
     *zoom: 1;
-  }
-  [class*="block-grid-"]:before, [class*="block-grid-"]:after {
-    content: " ";
-    display: table;
-  }
-  [class*="block-grid-"]:after {
-    clear: both;
+    .clearfix();
   }
   [class*="block-grid-"] > li {
     display: inline;

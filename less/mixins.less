@@ -538,12 +538,222 @@
   margin-top: (@navbarHeight - @elementHeight) / 2;
 }
 
+// Foundation Grid Construction
+// -------------------------------
 
+#grid {
 
-// Table columns
-.tableColumns(@columnSpan: 1) {
-  float: none; // undo default grid column styles
-  width: ((@gridColumnWidth) * @columnSpan) + (@gridGutterWidth * (@columnSpan - 1)) - 16; // 16 is total padding on left and right of table cells
-  margin-left: 0; // undo default grid column styles
+  .small {
+    .colSpan (@index) when (@index > 0) {
+      .small-@{index} {
+        .small (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .small (@columns) {
+      width: (round(@gridColumnWidth * @columns, 3));
+      position: relative;
+    }
+
+    .colSpan (@gridColumns);
+  }
+
+  .small-offset {
+    .colSpan (@index) when (@index > 0) {
+      .small-offset-@{index} {
+        .offset (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .offset (@columns) {
+      position: relative;
+      margin-left: (round(@gridColumnWidth * @columns, 3));
+    }
+
+    .colSpan (@gridColumns - 2);
+  }
+
+  .large {
+    .colSpan (@index) when (@index > 0) {
+      .large-@{index} {
+        .large (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .large (@columns) {
+      width: (round(@gridColumnWidth * @columns, 3));
+      position: relative;
+    }
+
+    .colSpan (@gridColumns);
+  }
+
+  .large-offset {
+    .colSpan (@index) when (@index > 0) {
+      .row .large-offset-@{index} {
+        .offset (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .offset (@columns) {
+      width: (round(@gridColumnWidth * @columns, 3));
+      position: relative;
+    }
+
+    .colSpan (@gridColumns);
+  }
+
+  .push {
+    .colSpan (@index) when (@index > 0) {
+      .push-@{index} {
+        .push (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .push (@columns) {
+      left: (round(@gridColumnWidth * @columns, 3));
+      position: relative;
+      right: auto;
+    }
+
+    .colSpan (@gridColumns - 1);
+  }
+
+  .pull {
+    .colSpan (@index) when (@index > 0) {
+      .pull-@{index} {
+        .pull (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .pull (@columns) {      
+      left: auto;
+      position: relative;
+      right: (round(@gridColumnWidth * @columns, 3));
+    }
+
+    .colSpan (@gridColumns - 1);
+  }
+
+  .small-push {
+    .colSpan (@index) when (@index > 0) {
+      .small-push-@{index} {
+        .small-push (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .small-push (@columns) {
+      left: inherit;
+    }
+
+    .colSpan (@gridColumns - 1);
+  }
+
+  .small-pull {
+    .colSpan (@index) when (@index > 0) {
+      .small-pull-@{index} {
+        .small-pull (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .small-pull (@columns) {
+      right: inherit;
+    }
+
+    .colSpan (@gridColumns - 1);
+  }
+
+  .small-block-grid {
+
+    .colSpan (@index) when (@index > 0) {
+      .small-block-grid-@{index} > li {
+        .small-block (@index);
+        &:nth-of-type(n) {
+          clear: none;
+        }
+        @nth: ~"@{index}n+1";
+        &:nth-of-type(@nth) {
+          clear: both;
+        }
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .small-block (@columns) {
+      width: (round((100% / @columns), 3));
+      padding: 0 10px 10px;
+    }
+
+    .colSpan (@gridColumns);
+
+  }
+
+  .small-block-grid-48 {
+
+    .colSpan (@index) when (@index > 0) {
+      .small-block-grid-@{index} > li{
+          @nth: ~"@{index}n+1";
+          &:nth-of-type(@nth) {
+            clear: none;
+          }
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .colSpan (@gridColumns);
+
+  }
+
+  .large-block-grid {
+
+    .colSpan (@index) when (@index > 0) {
+      .large-block-grid-@{index} > li {
+        .large-block (@index);
+        &:nth-of-type(n) {
+          clear: none;
+        }
+        @nth: ~"@{index}n+1";
+        &:nth-of-type(@nth) {
+          clear: both;
+        }
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .large-block (@columns) {
+      width: (round((100% / @columns), 3));
+      padding: 0 10px 10px;
+    }
+
+    .colSpan (@gridColumns);
+
+  }
+
 }
+
+// // Table columns
+// .tableColumns(@columnSpan: 1) {
+//   float: none; // undo default grid column styles
+//   width: ((@gridColumnWidth) * @columnSpan) + (@gridGutterWidth * (@columnSpan - 1)) - 16; // 16 is total padding on left and right of table cells
+//   margin-left: 0; // undo default grid column styles
+// }
 

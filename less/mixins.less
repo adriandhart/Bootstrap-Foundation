@@ -543,7 +543,7 @@
 
 #grid {
 
-  .small {
+  .small() {
     .colSpan (@index) when (@index > 0) {
       .small-@{index} {
         .small (@index);
@@ -560,7 +560,7 @@
     .colSpan (@gridColumns);
   }
 
-  .small-offset {
+  .small-offset() {
     .colSpan (@index) when (@index > 0) {
       .small-offset-@{index} {
         .offset (@index);
@@ -577,7 +577,7 @@
     .colSpan (@gridColumns - 2);
   }
 
-  .large {
+  .large() {
     .colSpan (@index) when (@index > 0) {
       .large-@{index} {
         .large (@index);
@@ -594,7 +594,7 @@
     .colSpan (@gridColumns);
   }
 
-  .large-offset {
+  .large-offset() {
     .colSpan (@index) when (@index > 0) {
       .row .large-offset-@{index} {
         .offset (@index);
@@ -611,7 +611,7 @@
     .colSpan (@gridColumns);
   }
 
-  .push {
+  .push() {
     .colSpan (@index) when (@index > 0) {
       .push-@{index} {
         .push (@index);
@@ -629,7 +629,7 @@
     .colSpan (@gridColumns - 1);
   }
 
-  .pull {
+  .pull() {
     .colSpan (@index) when (@index > 0) {
       .pull-@{index} {
         .pull (@index);
@@ -647,7 +647,7 @@
     .colSpan (@gridColumns - 1);
   }
 
-  .small-push {
+  .small-push() {
     .colSpan (@index) when (@index > 0) {
       .small-push-@{index} {
         .small-push (@index);
@@ -663,7 +663,7 @@
     .colSpan (@gridColumns - 1);
   }
 
-  .small-pull {
+  .small-pull() {
     .colSpan (@index) when (@index > 0) {
       .small-pull-@{index} {
         .small-pull (@index);
@@ -679,7 +679,7 @@
     .colSpan (@gridColumns - 1);
   }
 
-  .small-block-grid {
+  .small-block-grid() {
 
     .colSpan (@index) when (@index > 0) {
       .small-block-grid-@{index} > li {
@@ -705,7 +705,7 @@
 
   }
 
-  .small-block-grid-48 {
+  .small-block-grid-48() {
 
     .colSpan (@index) when (@index > 0) {
       .small-block-grid-@{index} > li{
@@ -722,7 +722,7 @@
 
   }
 
-  .large-block-grid {
+  .large-block-grid() {
 
     .colSpan (@index) when (@index > 0) {
       .large-block-grid-@{index} > li {

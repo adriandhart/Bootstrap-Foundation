@@ -42,6 +42,9 @@
   padding-right: @gridGutterWidth;
   width: 100%;
   float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Foundation Block Grids for below small breakpoint */
@@ -49,9 +52,12 @@
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
+    padding-left: @gridGutterWidth;
+    padding-right: @gridGutterWidth;
     float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
   #grid > .small();
   #grid > .small-offset();

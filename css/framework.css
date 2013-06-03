@@ -612,51 +612,51 @@ a:focus {
     position: relative;
   }
   .row .large-offset-12 {
-    width: 100%;
+    margin-left: 100%;
     position: relative;
   }
   .row .large-offset-11 {
-    width: 91.667%;
+    margin-left: 91.667%;
     position: relative;
   }
   .row .large-offset-10 {
-    width: 83.333%;
+    margin-left: 83.333%;
     position: relative;
   }
   .row .large-offset-9 {
-    width: 75%;
+    margin-left: 75%;
     position: relative;
   }
   .row .large-offset-8 {
-    width: 66.667%;
+    margin-left: 66.667%;
     position: relative;
   }
   .row .large-offset-7 {
-    width: 58.333%;
+    margin-left: 58.333%;
     position: relative;
   }
   .row .large-offset-6 {
-    width: 50%;
+    margin-left: 50%;
     position: relative;
   }
   .row .large-offset-5 {
-    width: 41.667%;
+    margin-left: 41.667%;
     position: relative;
   }
   .row .large-offset-4 {
-    width: 33.333%;
+    margin-left: 33.333%;
     position: relative;
   }
   .row .large-offset-3 {
-    width: 25%;
+    margin-left: 25%;
     position: relative;
   }
   .row .large-offset-2 {
-    width: 16.667%;
+    margin-left: 16.667%;
     position: relative;
   }
   .row .large-offset-1 {
-    width: 8.333%;
+    margin-left: 8.333%;
     position: relative;
   }
   .push-11 {

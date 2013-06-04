@@ -18,7 +18,7 @@ The tasks to be completed in this project:
 - Add [Bootstrap 2.3.1](https://github.com/twitter/bootstrap "Twitter Boostrap 2.3.1") to repo (master, not compiled version) - ***Done!***
 - Remove all grid related styles and/or less files - ***Done!***
 - Add new less file containing styles for grid from [Foundation 4](http://foundation.zurb.com/ "Zurb Foundation 4 Framework") - ***Done!***
-- Get the grid working in IE7 & IE8, either responsive, or fall back to static grid
+- Get the grid working in IE7 & IE8, either responsive, or fall back to static grid - ***In Progress! (June 2013)***
 - Testing & Debugging
 
 

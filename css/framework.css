@@ -2109,19 +2109,27 @@ table {
   width: 100%;
   margin-bottom: 20px;
 }
-.table th,
-.table td {
-  padding: 8px;
-  line-height: 20px;
-  text-align: left;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
-}
-.table th {
+.table thead,
+.table tfoot {
   font-weight: bold;
 }
-.table thead th {
+.table thead tr th,
+.table tfoot tr th,
+.table thead tr td,
+.table tfoot tr td {
+  padding: 0.5em 0.625em 0.625em;
+  text-align: left;
+}
+.table thead tr th,
+.table tfoot tr th {
   vertical-align: bottom;
+}
+.table td {
+  border-top: 1px solid #dddddd;
+  line-height: 20px;
+  padding: 0.5625em 0.625em;
+  text-align: left;
+  vertical-align: top;
 }
 .table caption + thead tr:first-child th,
 .table caption + thead tr:first-child td,

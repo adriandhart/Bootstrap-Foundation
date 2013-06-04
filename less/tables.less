@@ -20,20 +20,25 @@ table {
   width: 100%;
   margin-bottom: @baseLineHeight;
   // Cells
-  th,
+  thead, tfoot {
+    font-weight: bold;
+    tr {
+      th, td {
+        padding: 0.5em 0.625em 0.625em;
+        text-align: left;
+      }
+      th {
+        // Bottom align for column headings
+        vertical-align: bottom;
+      }
+    }
+  }
   td {
-    padding: 8px;
+    border-top: 1px solid @tableBorder;
     line-height: @baseLineHeight;
+    padding: 0.5625em 0.625em;
     text-align: left;
     vertical-align: top;
-    border-top: 1px solid @tableBorder;
-  }
-  th {
-    font-weight: bold;
-  }
-  // Bottom align for column headings
-  thead th {
-    vertical-align: bottom;
   }
   // Remove top border from thead by default
   caption + thead tr:first-child th,

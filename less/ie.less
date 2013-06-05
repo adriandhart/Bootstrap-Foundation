@@ -1,0 +1,49 @@
+// IE is so special, it gets it's own stylesheet!
+// The following code will allow the grid from Foundation 4 to stay intact on IE7 & IE8
+// Thanks to Chris Michel for his code which forme the basis of this stylesheet - https://gist.github.com/zurbchris/5068210
+
+/* The Grid ---------------------- */
+.lt-ie9 {
+	.row { 
+		margin: 0 auto; 
+		max-width: 100%;
+		min-width: 768px;
+		width: 940px;
+		.row {
+			margin: 0 -15px;
+			max-width: none;
+			min-width: 0;
+			width: auto;
+			&.large-collapse {
+				.column, .columns { padding: 0; }
+				margin: 0;
+			}
+		}
+	}
+	.column, .columns {
+		float: left;
+		min-height: 1px;
+		padding: 0 15px;
+		position: relative;
+		&.large-centered {
+			float: none;
+			margin: 0 auto;
+		}
+	}
+	[class*="column"] + [class*="column"] {
+		&:last-child { float: right; }
+		&.end { float: left; }
+
+	}
+
+	#grid > .ie8();
+	#grid > .ie8-large-offset();
+	#grid > .ie8-pull();
+	#grid > .ie8-push();
+
+}
+
+/* Nicolas Gallagher's micro clearfix */
+.lt-ie9 .row { *zoom: 1; }
+.lt-ie9 .row:before, .row:after { content: " "; display: table; }
+.lt-ie9 .row:after { clear: both; }

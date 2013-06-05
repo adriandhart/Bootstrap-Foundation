@@ -748,6 +748,79 @@
 
   }
 
+  .ie8() {
+
+    .colSpan (@index) when (@index > 0) {
+      .large-@{index},
+      .row .large-@{index} {
+        .ie8 (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .ie8 (@columns) {
+      width: (round(@gridColumnWidth * @columns, 3));
+    }
+
+    .colSpan (@gridColumns);
+
+  }
+
+  .ie8-large-offset() {
+
+    .colSpan (@index) when (@index > 0) {
+      .large-offset-@{index} {
+        .ie8-large-offset (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (0) {}
+
+    .ie8-large-offset (@columns) {
+      margin-left: (round(@gridColumnWidth * @columns, 3));
+    }
+
+    .colSpan (@gridColumns - 2);
+
+  }
+
+  .ie8-pull() {
+
+    .colSpan (@index) when (@index > 0) {
+      .pull-@{index} {
+        .ie8-pull (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (1) {}
+
+    .ie8-pull (@columns) {
+      width: (round(@gridColumnWidth * @columns, 3));
+    }
+
+    .colSpan (@gridColumns - 10);
+
+  }
+
+  .ie8-push() {
+
+    .colSpan (@index) when (@index > 0) {
+      .push-@{index} {
+        .ie8-push (@index);
+      }
+      .colSpan(@index - 1);
+    }
+    .colSpan (1) {}
+
+    .ie8-push (@columns) {
+      width: (round(@gridColumnWidth * @columns, 3));
+    }
+
+    .colSpan (@gridColumns - 10);
+
+  }
+  
 }
 
 // Table columns
